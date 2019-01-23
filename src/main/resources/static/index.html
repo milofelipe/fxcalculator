@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FX Calculator</title>
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="fxcalculator.js"></script>
+</head>
+<body>
+<div>
+    Select From Currency:
+    <select id="fromCurrency">
+        <option value="AUD">AUD</option>
+        <option value="CAD">CAD</option>
+        <option value="CNY">CNY</option>
+        <option value="CZK">CZK</option>
+        <option value="DKK">DKK</option>
+        <option value="EUR">EUR</option>
+        <option value="GBP">GBP</option>
+        <option value="JPY">JPY</option>
+        <option value="NOK">NOK</option>
+        <option value="NZD">NZD</option>
+        <option value="USD">USD</option>
+    </select><br/>
+    From Amount
+    <input id="amount"><br/>
+    To Currency:
+    <select id="toCurrency">
+        <option value="AUD">AUD</option>
+        <option value="CAD">CAD</option>
+        <option value="CNY">CNY</option>
+        <option value="CZK">CZK</option>
+        <option value="DKK">DKK</option>
+        <option value="EUR">EUR</option>
+        <option value="GBP">GBP</option>
+        <option value="JPY">JPY</option>
+        <option value="NOK">NOK</option>
+        <option value="NZD">NZD</option>
+        <option value="USD">USD</option>
+    </select><br/>
+    <button id="convert" type="button">Convert</button>
+    <br/><br/>
+    <div id="results"></div>
+</div>
+</body>
+</html>
